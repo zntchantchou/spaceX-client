@@ -1,0 +1,9 @@
+query {
+    launchesUpcoming{
+    is_tentative
+    ships{
+      active
+      home_port
+    }
+  }
+}
