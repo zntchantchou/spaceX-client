@@ -1,0 +1,53 @@
+.launchesContainer{
+  max-height: 400px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.year {
+  font-size: .9em;
+  height:35px;
+  background-color: aliceblue;
+  display: flex; 
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 0 20px 0 0;
+  color: rgba(0, 14, 61, 0.89);
+  font-weight: 600;
+}
+
+.title {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  height: 50px;
+  width: 80%;
+  background-color: #fff;
+}
+
+.tile {
+  max-height: 400px;
+  display: flex;
+}
+ 
+.listIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.listIcon *{
+  height: 20px;
+  width: 20px;
+}
+
+.rotateIcon {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); 
+  transition-duration: 0.2s;
+}

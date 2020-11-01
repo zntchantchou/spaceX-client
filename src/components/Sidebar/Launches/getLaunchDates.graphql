@@ -1,0 +1,6 @@
+query getLaunchesDates{
+  launches: launchesPast{
+    launch_date_utc
+    __typename
+  }
+}
