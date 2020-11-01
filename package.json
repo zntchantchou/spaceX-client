@@ -9,12 +9,16 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.164",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
+    "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.8",
+    "g": "^2.0.1",
     "graphql": "^15.4.0",
     "graphql-tag": "^2.11.0",
     "graphql.macro": "^1.4.2",
+    "lodash": "^4.17.20",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-apollo": "^3.1.5",
     "react-apollo-hooks": "^0.5.0",
@@ -25,9 +29,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "codegen": "npx apollo client:codegen --target typescript types",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [

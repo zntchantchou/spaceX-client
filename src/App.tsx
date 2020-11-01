@@ -1,18 +1,14 @@
 import React from 'react';
-import './App.css';
-
-
+import styles from './App.module.css';
+import SideBar from './components/Sidebar/Sidebar';
+import Header from './components/Header/Header';
 
 function App() {
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-          Learn React
-      </header>
+    <div className={styles.App}>
+      < Header/> 
+      < SideBar/> 
     </div>
   );
 }
